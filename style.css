@@ -26,6 +26,14 @@ input{
     margin-bottom: 15px;
     font-weight: bold;
 }
+#wrong{
+    border: 1px solid red;
+    height: 20px;
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
 
 #btn{
     width: 100px;
