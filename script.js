@@ -5,8 +5,8 @@ let res = document.getElementById('result');
 
 btn.onclick = event => {
 
-    let firstInp = a.value.split(',');
-    let secondInp = b.value.split(' ');
+    let firstInp = a.value.split(/[\s,;.:]+/);
+    let secondInp = b.value.split(/[\s,;.:]+/);
 
     function search(a, b) {
         let result = [];
